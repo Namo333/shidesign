@@ -1,10 +1,11 @@
 import React from 'react';
+import { AboutHero, AnoutInfo } from './components';
 
 const About = () => (
-  <div>
-    <h1>О нашей компании:</h1>
-    <p>Мы замечательная компания, которая ...</p>
-  </div>
+  <section className='flex flex-col items-center pt-[140px]'>
+    <AboutHero />
+    <AnoutInfo />
+  </section>
 );
 
 export default About;

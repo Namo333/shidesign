@@ -13,27 +13,24 @@ const HeroHome = () => (
     <h1 className="max-w-3xl text-center text-3xl md:text-5xl font-normal leading-relaxed md:mb-8">
       Мы не студия, <br /> но дизайнить умеем
     </h1>
-
     <main className='flex flex-col gap-[28px]'>
       <div className="w-full">
-        <LazyLoadImage className="w-full" effect="blur" src={Case1} alt="case1" />
+        <LazyLoadImage src={ Case1 } className='w-full' effect='blur' alt='case1' />
       </div>
-      
       <div className="w-full flex flex-col sm:flex-row gap-[28px]">
         <div className="w-full sm:w-2/3">
-          <LazyLoadImage className="w-full  object-cover h-full" effect="blur" src={Case2} alt="case2" />
+          <LazyLoadImage src={ Case2 } className='w-full object-cover h-full' effect='blur' alt='case2' />
         </div>
         <div className="w-full sm:w-1/3">
-          <LazyLoadImage className="w-full object-cover h-full" effect="blur" src={Case3} alt="case3" />
+          <LazyLoadImage src={ Case3 } className='w-full object-cover h-full' effect='blur' alt='case3' />
         </div>
       </div>
-
       <div className="w-full flex flex-col sm:flex-row gap-[28px]">
         <div className="w-full sm:w-1/2">
-          <LazyLoadImage className="w-full object-cover h-full" effect="blur" src={Case4} alt="case4" />
+            <LazyLoadImage src={ Case4 } className='w-full object-cover h-full' effect='blur' alt='case4' />
         </div>
         <div className="w-full sm:w-1/2">
-          <LazyLoadImage className="w-full object-cover h-full" effect="blur" src={Case5} alt="case5" />
+          <LazyLoadImage src={ Case5 } className='w-full object-cover h-full' effect='blur' alt='case5' />
         </div>
       </div>
     </main>
