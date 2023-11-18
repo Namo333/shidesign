@@ -15,7 +15,7 @@ const Footer = () => (
       </p>
     </div>
 
-    <div className="flex items-center justify-between 2xl:gap-[309px] xl:gap-[179px] gap-[20px] max-sm:flex-col">
+    <div className="flex items-center justify-between 2xl:gap-[493px] xl:gap-[179px] gap-[20px] max-sm:flex-col">
       <div className="flex justify-center items-center gap-[48px]">
         <a href="https://t.me/shizign" className="w-[104px] h-[104px] rounded-[100px] flex justify-center items-center">
           <img className="rounded-[100px]" src={ Shidesign } />

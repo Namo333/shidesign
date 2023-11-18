@@ -1,7 +1,7 @@
 import { Navbar, Footer } from './components';
 
 const App = () => (
-  <div className="container mx-auto px-[72px]">
+  <div className="max-2xl:container mx-auto px-[72px]">
     <Navbar />
     <Footer />
     <a href="#" id='scrollButton'

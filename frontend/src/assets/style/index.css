@@ -169,11 +169,11 @@ template {
 }
 
 .aboute__text{
-  @apply max-w-[1000px] text-center text-black text-3xl font-normal leading-[57.60px] m-0 p-0;
+  @apply max-w-[1000px] text-black text-3xl font-normal leading-[57.60px] m-0 p-0;
 }
 
 .aboute__plus{
-  @apply p-4 rounded-md text-white flex items-center justify-center bg-[#F7F7F7] w-[560px] h-[300px] gap-[48px] text-center text-[32px] font-normal leading-[38.40px];
+  @apply p-4 rounded-[16px] text-white flex items-center justify-center bg-[#F7F7F7] w-[360px] h-[300px] gap-[48px] text-center text-[32px] font-normal leading-[38.40px];
 }
 
 
