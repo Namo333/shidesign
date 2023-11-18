@@ -161,7 +161,7 @@ template {
 }
 
 .nav__navtext{
-  @apply text-2xl font-normal leading-9;
+  @apply text-[20px] font-normal leading-9;
 }
 
 .aboute__title{
