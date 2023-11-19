@@ -165,7 +165,7 @@ template {
 }
 
 .aboute__title{
-  @apply max-w-[1168px] text-8xl font-semibold leading-[124px] m-0 p-0;
+  @apply max-w-[1168px] text-8xl max-sm:text-4xl max-md:text-6xl font-semibold leading-[124px] m-0 p-0;
 }
 
 .aboute__text{
