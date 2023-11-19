@@ -19,7 +19,7 @@ const AnoutInfo = () => {
     };
 
     return (
-        <section className='flex flex-col gap-[200px] pt-[400px]'>
+        <section className='flex flex-col gap-[200px] pt-[400px] pb-[200px]'>
             <div className="text-center flex flex-col items-center justify-center">
                 <h1 className='text-pink-500 aboute__title'>Миссия</h1>
                 <p className='aboute__text'>Показывать привычные вещи с другой стороны и генерировать для них новые смыслы</p>

@@ -176,4 +176,9 @@ template {
   @apply p-4 rounded-[16px] text-white flex items-center justify-center bg-[#F7F7F7] w-[360px] h-[300px] gap-[48px] text-center text-[32px] font-normal leading-[38.40px];
 }
 
-
+.svg {
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+}

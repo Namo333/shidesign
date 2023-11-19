@@ -3,8 +3,8 @@ import React from 'react'
 import WhiteCoding from '../assets/img/whitecode.png'
 import Shidesign from '../assets/img/shidesign.png'
 
-const Footer = () => (
-  <footer className='flex justify-between items-center py-[80px] max-lg:flex-col-reverse gap-[42px]'>
+const Footer = React.forwardRef((props, ref) => (
+  <footer ref={ref} className='flex justify-between items-center py-[80px] max-lg:flex-col-reverse gap-[42px]'>
     <div className="flex flex-col gap-[24px] max-lg:text-center">
       <p className='text-black text-xl font-normal leading-relaxed'>
         Дизайн — Дмитрий Зверьков<br></br>
@@ -34,6 +34,6 @@ const Footer = () => (
     </div>
 
   </footer>
-)
+));
 
 export default Footer
